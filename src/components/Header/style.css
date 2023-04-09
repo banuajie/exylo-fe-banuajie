@@ -1,3 +1,9 @@
 .display-profile {
     border-radius: 50%;
 }
+
+.line {
+    color: #4b5259;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

@@ -1,10 +1,12 @@
+import "./style.css";
 import React from "react";
 import SideMenu from "../../components/SideMenu";
 import Header from "../../components/Header";
+import Dashboard from "../../components/Dashboard";
 
 const HomePage = () => {
     return (
-        <div className="container-fluid p-0" style={{ background: "#151A2E" }}>
+        <div className="home-page container-fluid p-0">
             <div className="row">
                 {/* Left side */}
                 <div className="col col-2 left-side">
@@ -13,10 +15,20 @@ const HomePage = () => {
 
                 {/* Right side */}
                 <div className="col col-10 right-side">
+                    {/* Header */}
                     <div className="container">
                         <div className="row">
                             <div className="col">
                                 <Header />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Dashboard */}
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <Dashboard />
                             </div>
                         </div>
                     </div>

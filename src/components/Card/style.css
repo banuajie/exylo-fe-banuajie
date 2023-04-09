@@ -1,0 +1,11 @@
+.card-item {
+    max-width: 540px;
+    width: 230px;
+    height: 90px;
+    background-color: #1c243f;
+}
+
+.card-item:hover {
+    background-color: #0bb885;
+    cursor: pointer;
+}
