@@ -7,6 +7,7 @@ import Notifications from "../../assets/images/notifications.png";
 import NotificationsOne from "../../assets/images/notifications-one.png";
 import Settings from "../../assets/images/settings.png";
 import LogOut from "../../assets/images/logout.png";
+import { Link } from "react-router-dom";
 
 const SideMenu = () => {
     return (
@@ -15,9 +16,11 @@ const SideMenu = () => {
                 {/* Logo */}
                 <div className="container mb-5">
                     <div className="row">
-                        <div className="col">
-                            <img src={Logo} alt="Logo" />
-                        </div>
+                        <Link to="/">
+                            <div className="col logo">
+                                <img src={Logo} alt="Logo" />
+                            </div>
+                        </Link>
                     </div>
                 </div>
 
