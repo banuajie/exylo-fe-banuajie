@@ -1,0 +1,12 @@
+.menu {
+    cursor: pointer;
+}
+
+.menu:hover {
+    border-radius: 5px;
+    background-color: #1f2849;
+}
+
+.text-menu {
+    color: #6c747d;
+}
