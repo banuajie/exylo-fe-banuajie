@@ -3,6 +3,7 @@ import React from "react";
 import SideMenu from "../../components/SideMenu";
 import Header from "../../components/Header";
 import Dashboard from "../../components/Dashboard";
+import Footer from "../../components/Footer";
 
 const HomePage = () => {
     return (
@@ -36,7 +37,9 @@ const HomePage = () => {
                     {/* Footer */}
                     <div className="container">
                         <div className="row">
-                            <div className="col"></div>
+                            <div className="col">
+                                <Footer />
+                            </div>
                         </div>
                     </div>
                 </div>
