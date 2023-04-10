@@ -1,0 +1,32 @@
+#earning-chart {
+    background: #1c243f;
+
+    width: 285px;
+    height: 219px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+}
+
+.earning-title {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.earning-range {
+    background: #1c243f;
+    border-color: #1c243f;
+    color: #5c6ca5;
+    font-size: 10px;
+}
+
+.earning-desc {
+    font-size: 10px;
+    color: white;
+}
+
+.earning-value {
+    font-size: 14px;
+    color: #8a92a6;
+}

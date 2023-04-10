@@ -1,5 +1,6 @@
-import Card from "../Card";
 import "./style.css";
+import Card from "../Card";
+import EarningChart from "../EarningChart";
 import React from "react";
 
 const Dashboard = () => {
@@ -20,6 +21,15 @@ const Dashboard = () => {
 
                 {/* Card */}
                 <Card />
+
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <EarningChart />
+                        </div>
+                        <div className="col"></div>
+                    </div>
+                </div>
             </section>
         </>
     );
