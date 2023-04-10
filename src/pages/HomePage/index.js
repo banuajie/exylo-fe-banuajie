@@ -32,6 +32,13 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Footer */}
+                    <div className="container">
+                        <div className="row">
+                            <div className="col"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

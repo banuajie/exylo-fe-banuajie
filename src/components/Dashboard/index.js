@@ -5,6 +5,7 @@ import React from "react";
 import OrdersChart from "../OrdersChart";
 import ProfitChart from "../ProfitChart";
 import TotalProfitChart from "../TotalProfitChart";
+import ActivityOverview from "../ActivityOverview";
 
 const Dashboard = () => {
     return (
@@ -59,7 +60,9 @@ const Dashboard = () => {
                         </div>
 
                         {/* right column */}
-                        <div className="col col-auto"></div>
+                        <div className="col">
+                            <ActivityOverview />
+                        </div>
                     </div>
                 </div>
             </section>
