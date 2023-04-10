@@ -1,0 +1,12 @@
+#orders-chart {
+    background: #1c243f;
+    width: 183px;
+    height: 220px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.orders-value {
+    font-size: 28px;
+    color: #ff814a;
+}
