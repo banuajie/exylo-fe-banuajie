@@ -4,6 +4,7 @@ import EarningChart from "../EarningChart";
 import React from "react";
 import OrdersChart from "../OrdersChart";
 import ProfitChart from "../ProfitChart";
+import TotalProfitChart from "../TotalProfitChart";
 
 const Dashboard = () => {
     return (
@@ -34,7 +35,7 @@ const Dashboard = () => {
                     <div className="row">
                         {/* left column */}
                         <div className="left-column col col-7">
-                            <div className="row">
+                            <div className="row mb-3">
                                 <div className="col col-5 d-flex justify-content-center">
                                     {/* earnings chart */}
                                     <EarningChart />
@@ -46,6 +47,13 @@ const Dashboard = () => {
                                 <div className="col col-3 d-flex justify-content-center">
                                     {/* profit chart */}
                                     <ProfitChart />
+                                </div>
+                            </div>
+
+                            <div className="row mt-3">
+                                <div className="col">
+                                    {/* total profit chart */}
+                                    <TotalProfitChart />
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,28 @@
+#total-profit-chart {
+    background: #1c243f;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.total-profit-left {
+    border-right: 1px solid #2e4b85;
+}
+
+.earning-notation {
+    color: #828282;
+}
+
+.expense-notation {
+    color: #828282;
+}
+
+.select-year {
+    width: 75px;
+    background: #1c243f;
+    border: 1px solid #0bb885;
+    color: #0bb885;
+}
+
+.total-profit-balance {
+    font-size: 10px;
+}
