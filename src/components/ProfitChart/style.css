@@ -1,0 +1,11 @@
+#profit-chart {
+    background: #1c243f;
+    border-radius: 5px;
+    width: 162px;
+    height: 220px;
+    padding: 5px;
+}
+
+.profit-value {
+    color: #0bb885;
+}

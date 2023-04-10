@@ -6,7 +6,7 @@ import GreenDot from "../../assets/images/green-dot.png";
 import OrangeDot from "../../assets/images/orange-dot.png";
 
 const EarningChart = () => {
-    const [range, setRange] = useState("");
+    const [range, setRange] = useState("This Week");
 
     return (
         <>

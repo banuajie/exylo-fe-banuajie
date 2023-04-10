@@ -3,6 +3,7 @@ import Card from "../Card";
 import EarningChart from "../EarningChart";
 import React from "react";
 import OrdersChart from "../OrdersChart";
+import ProfitChart from "../ProfitChart";
 
 const Dashboard = () => {
     return (
@@ -32,21 +33,25 @@ const Dashboard = () => {
                     {/* bottom row */}
                     <div className="row">
                         {/* left column */}
-                        <div className="col">
+                        <div className="left-column col col-7">
                             <div className="row">
-                                <div className="col">
+                                <div className="col col-5 d-flex justify-content-center">
                                     {/* earnings chart */}
                                     <EarningChart />
                                 </div>
-                                <div className="col">
+                                <div className="col col-4 d-flex justify-content-center">
                                     {/* orders chart */}
                                     <OrdersChart />
+                                </div>
+                                <div className="col col-3 d-flex justify-content-center">
+                                    {/* profit chart */}
+                                    <ProfitChart />
                                 </div>
                             </div>
                         </div>
 
                         {/* right column */}
-                        <div className="col"></div>
+                        <div className="col col-auto"></div>
                     </div>
                 </div>
             </section>
