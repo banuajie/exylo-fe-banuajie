@@ -10,12 +10,12 @@ const Footer = () => {
                     <div className="row">
                         <div className="col col-1">
                             <Link className="footer-link">
-                                <p className="text-footer">Privacy Policy</p>
+                                <p className="text-footer my-auto">Privacy Policy</p>
                             </Link>
                         </div>
                         <div className="col col-1">
                             <Link className="footer-link">
-                                <p className="text-footer">Terms of Use</p>
+                                <p className="text-footer my-auto">Terms of Use</p>
                             </Link>
                         </div>
                     </div>
