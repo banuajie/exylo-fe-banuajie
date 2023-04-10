@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 
 const HomePage = () => {
     return (
-        <div className="home-page container-fluid p-0">
+        <div className="home-page container-fluid pt-0 pe-3 pb-0 ps-0">
             <div className="row">
                 {/* Left side */}
                 <div className="col col-2 left-side">
