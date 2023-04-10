@@ -10,3 +10,7 @@ Figma : "https://www.figma.com/file/Mh2DJSBXABOmdaoveOlYYO/%5BFE%5B-Candidate-Te
 
 1. ReactJS
 2. Bootstrap
+
+### Link Deploy :
+
+https://exylo-fe-banuajie.netlify.app/
